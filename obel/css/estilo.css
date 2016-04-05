@@ -1,0 +1,236 @@
+body{
+
+	font-family: 'Indie Flower', cursive;
+	background: url(imagenes/teclas.jpg) fixed center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+}
+
+header{/*Este es el estilo de la cabezera con mobil-first
+	todo lo que aqui estoy haciendo va dirigido a mobiles*/
+
+	background-color: rgba(8, 12, 92, 0.5);
+	height: 100%;
+
+}
+
+
+header h1{/*Aqui tengo el estilo para el titulo de la pagina*/
+	color: #f7f7f7;
+	float: left;
+	font-size: 1cm;
+	display: inline-block;
+	margin: 7px 80px 0px 50px;
+	padding: 0px;
+}
+header figure img{/*Aqui esta el tamaño de la imagen del logo*/
+width: 100px;
+height: 50px;
+float: left;
+margin-top: 10px;
+
+
+}
+
+header nav ul{/*Aqui esta el estilo a la lista del menu*/
+
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	list-style: none;
+}
+header nav ul li{/*aqui esta el diseño de los elementos de la lista*/
+
+	height: 20px;
+	margin-top: 15px;
+	width: 100%;
+	display: inline-block;
+	
+
+}
+
+header nav ul li a{/*Aqui esta el diseño de los enlaces a las paginas de la lista 
+	del menu*/
+	text-decoration: none;
+	color: #f7f7f7;
+	font-weight: bold;
+	padding: 15px 25px;
+	
+
+}
+header nav ul li a:hover{
+
+	font-size: 15px;
+	color: #3104B4;
+
+}
+section{
+
+
+}
+
+.seccion1{
+margin: 10px 10px 10px 10px;
+border-top: 1px solid #E0F8F1;
+border-radius: 20px;
+width: 96%;
+height: 78%;
+
+}
+#articuloini{
+margin: 10px 10px 10px 10px;
+
+}
+#div{
+
+	text-align: center;
+}
+#imaini{
+
+	width: 150px;
+	height: 50px;
+}
+
+#inicio{
+
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+#inicio2{
+
+	font-family: 'Lobster', cursive;
+	text-align: center;
+}
+footer{/*Aqui esta el diseño del pie de la pagina */
+	text-align: center;
+	font-size: 10px;
+	vertical-align: top;
+	width: 100%;
+	height: 38%;
+	margin-top: 1px;
+	background-color: rgba(8, 12, 92, 0.5);
+
+}
+/*Aqui esta la seccion del responsive desing en donde le daremos forma a la pagina
+a partir de los cambios realizados cuando se cambia el tamaño de la pantalla*/
+@media screen and (min-width: 480px){
+
+header nav ul li{
+width: 22%;
+
+}
+.seccion1{
+
+	height: 430px;
+	width: 96%;
+}
+#articuloini{
+
+	margin-top: 100px;
+}
+
+footer{
+
+	float: left;
+	width: 100%;
+	height: 38%;
+
+}
+
+}
+@media screen and (min-width: 767px){/*Aqui estoy dando estilo a las pantallas
+	medianas resoluciones de 700px*/
+header{
+
+	height: 70px;
+}
+header nav ul li {
+width: 8%;
+
+}
+.seccion1{
+
+	height: 450px;
+	width: 98%;
+}
+
+footer{
+
+	float: left;
+	width: 100%;
+	height: 38%;
+
+}
+
+}
+@media screen and (min-width: 970px){/*Aqui les estoy dando estilos a las pantallas
+	mas grandes con resolucion de 900px*/
+header{
+
+	height: 70px;
+}
+header nav ul li {
+width: 8%;
+
+}
+
+.seccion1{
+
+	width: 98%;
+	height: 450px;
+}
+
+footer{
+
+	float: left;
+	width: 100%;
+	height: 38%;
+	
+}
+
+}
+@media screen and (min-width: 1000px){
+
+header{
+
+	height: 70px;
+}
+header nav ul li {
+width: 8%;
+
+}
+
+
+footer{
+
+	float: left;
+	width: 100%;
+	height: 38%;
+	
+}
+
+}
+@media screen and (min-width: 1100px){
+
+	header{
+
+	height: 70px;
+}
+header nav ul li {
+width: 8%;
+
+}
+.seccion1{
+height: 500px;
+width: 98%;
+}
+footer{
+
+	float: left;
+	width: 100%;
+	height: 38%;
+	
+}
+}

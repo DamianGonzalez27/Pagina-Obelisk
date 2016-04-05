@@ -1,0 +1,49 @@
+body.cursoja{
+
+	font-family: 'Indie Flower', cursive;
+	background: url(imagenes/fondocurso.jpg) fixed center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.cursoj{
+
+    background-color: rgba(16, 9, 85, 0.5);
+	height: 160px;
+
+}
+
+.piecurso{
+
+	background-color: rgba(16, 9, 85, 0.5);
+	height: 80px;
+}
+
+
+@media screen and (min-width: 480px){
+.cursoj{
+
+	height: 80px;
+}
+
+}
+@media screen and (min-width: 767px){
+
+	
+}
+@media screen and (min-width: 970px){
+
+	
+}
+@media screen and (min-width: 1000px){
+
+	.cursoj{
+
+		height: 70px;
+	}
+
+}
+@media screen and (min-width: 1100){
+
+	
+}

@@ -1,0 +1,118 @@
+section article.correos{
+
+color: black;
+margin: 50px 0px 20px 10%;
+width: 85%;
+background: rgba(61, 157, 220, 0.5);
+box-shadow: 0px 0px 10px #81DAF5;
+border-width: 2px;
+border-style: solid;
+display: inline-block;
+vertical-align: top;
+position: relative;
+border-radius: 0px 0px 20px 20px
+
+
+}
+
+section article.medios{
+margin: 50px 0px 20px 10%;
+width: 85%;
+background: rgba(55, 91, 207, 0.5);
+box-shadow: 0px 0px 10px #81DAF5;
+border-width: 2px;
+border-style: solid;
+display: inline-block;
+vertical-align: top;
+position: relative;
+border-radius: 0px 0px 20px 20px
+
+
+}
+.label{
+	height: 70%;
+	float: left;
+	width: 20%;
+}
+
+.label ul{
+
+	list-style: none;
+}
+.label ul li{
+
+margin-top: 15px;
+
+
+}
+.campos{
+
+height: 70%;
+float: right;
+width: 50%;
+}
+.campos input{
+
+	margin-top: 10px;
+	display: inline-block;
+	width: 80%;
+}
+.campos textarea{
+margin-top: 10px;
+display: inline-block;
+width: 80%;
+
+}
+.campos button{
+
+	margin-top: 10px;
+	display: block;
+	
+}
+.contactoscab{
+
+	height: 300px;
+}
+
+#face{
+
+	border-radius: 10px;
+	border: none;
+	height: 80px;
+	width: 80px;
+
+}
+
+#formas{
+
+	margin: 2px 2px 2px 2px;
+}
+
+
+@media screen and (min-width: 480px){
+.contactoscab{
+
+	height: 80px;
+}
+
+}
+@media screen and (min-width: 767px){
+
+	
+}
+@media screen and (min-width: 970px){
+
+	
+}
+@media screen and (min-width: 1000px){
+
+	.contactoscab{
+
+		height: 70px;
+	}
+
+}
+@media screen and (min-width: 1100){
+
+	
+}

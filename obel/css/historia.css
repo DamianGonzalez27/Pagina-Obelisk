@@ -1,0 +1,32 @@
+.historia{
+	
+	height: 300px;
+}
+
+@media screen and (min-width: 480px){
+.historia{
+
+	height: 80px;
+}
+
+}
+@media screen and (min-width: 767px){
+
+	
+}
+@media screen and (min-width: 970px){
+
+	
+}
+@media screen and (min-width: 1000px){
+
+	.historia{
+
+		height: 70px;
+	}
+
+}
+@media screen and (min-width: 1100){
+
+	
+}

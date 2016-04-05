@@ -1,0 +1,189 @@
+
+
+section article.articulos{
+margin: 50px 0px 20px 10%;
+width: 85%;
+background: rgba(255, 255, 255, 0.01);
+box-shadow: 0px 0px 10px #81DAF5;
+border-width: 2px;
+border-style: solid;
+display: inline-block;
+vertical-align: top;
+position: relative;
+border-radius: 0px 0px 20px 20px
+
+
+
+}
+
+section article.conocenos{
+
+	width: 75%;
+}
+section article ul li{
+
+	list-style: none;
+	font-weight: bolder;
+}
+section article ul li a{
+
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	color:#FFFFFF;
+}
+section article ul li a:hover{
+
+	font-size: 20px;
+	color:#5858FA;
+}
+
+section article.articulos figure{
+	float: left;
+	margin-top: -50px;
+	margin-left: -30px;
+}
+section article.articulos figure img{
+
+	border: 3px solid #5882FA;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+
+}
+#linkcontacto{
+text-decoration: none;
+color: black;
+font-weight: bolder;
+
+}
+
+#linkcontacto:hover{
+font-size: 30px;
+	color: ##FF0000;
+
+}
+#imagensin{
+
+	border: none;
+	border-radius: none;
+}
+
+section article.articulos span.curso{
+
+	font-family: 'Orbitron', sans-serif;
+	position: absolute;
+	border: 1px solid #52127F;
+	border-radius: 15px 5px 0px 0px;
+	top: -38px;
+	right: -1px;
+	height: 30px;
+	line-height: 30px;
+	padding: 2px 10px;
+	background: rgba(111, 5, 5, 0.7);
+	font-weight: bolder;
+
+}
+section article.articulos h2{
+
+	font-size: 1.6em;
+	font-family: 'Kaushan Script', cursive;
+}
+section article.articulos p{
+
+	text-align: justify;
+	margin: 10px 10px 10px 10px;
+	font-weight: bolder;
+}
+.principal1{
+
+	width: 80%;
+}
+
+.retraso{
+animation-delay: 0.1s;
+
+}
+.retraso2{
+
+animation-delay: 0.2s;
+}
+.retraso3{
+animation-delay: 0.3s;
+	
+}
+.retraso4{
+animation-delay: 0.4s;
+	
+}
+.retraso5{
+animation-delay: 0.5s;
+	
+}
+.retraso6{
+animation-delay: 0.6s;
+	
+}
+.retraso7{
+animation-delay: 0.7s;
+	
+}
+.retraso8{
+animation-delay: 0.8s;
+	
+}
+.retraso9{
+animation-delay: 0.9s;
+	
+}
+.retraso10{
+animation-delay: 1s;
+	
+}
+@media screen and (min-width: 480px){
+section article.principal1{
+
+	width: 80%;
+}
+
+
+}
+@media screen and (min-width: 767px){
+
+	section article.articulos{
+		width: 40%;
+		margin: 50px 3% 20px 6%;
+
+	}
+	section article.principal1{
+
+	width: 80%;
+}
+
+}
+@media screen and (min-width: 970px){
+
+section article.articulos{
+
+	width: 26%;
+	margin: 50px 1% 20px 5%;
+}
+
+section article.principal1{
+
+	width: 85%;
+}
+	
+}
+@media screen and (min-width: 1000px){
+section article.principal1{
+
+	width: 85%;
+}
+
+	
+}
+@media screen and (min-width: 1100){
+
+	
+}

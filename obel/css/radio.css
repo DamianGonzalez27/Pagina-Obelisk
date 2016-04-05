@@ -1,0 +1,123 @@
+.radiocab{
+height: 300px;
+width: 100%;
+
+
+}
+.head{
+
+height: 300px;
+
+}
+.principal{
+
+	width: 80%;
+	font-size: 80%;
+}
+.horarios{
+
+	height: 30%;
+}
+
+
+
+
+#radio1{
+
+	width: 90%;
+}
+#radio2s{
+
+	margin-left: 10%;
+	margin-top: 2%;
+	height: 50px;
+	width: 150px;
+	float: left;
+}
+
+#cajaaudio{
+
+	text-align: center;
+}
+#transmicion{
+
+	width: 96%;
+	text-align: center;
+	margin: 10px;
+
+}
+#cuerpo{
+
+	width: 70%;
+	height: 80%;
+}
+#programas{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+
+
+@media screen and (min-width: 480px){
+.head{
+
+	height: 75px;
+}
+
+.radiocab{
+
+	height: 80px;
+	width: 80%;
+	margin: 10px;
+}
+.principal{
+
+	width: 450px;
+}
+
+
+}
+@media screen and (min-width: 460px){
+
+	 
+}
+
+@media screen and (min-width: 767px){
+
+section article img{
+
+	height: 400px;
+}
+.horarios{
+
+	width: 26%;
+}
+	
+}
+@media screen and (min-width: 970px){
+
+section article img{
+
+	height: 400px;
+}
+	
+}
+@media screen and (min-width: 1000px){
+
+	.radiocab{
+
+		height: 70px;
+	}
+
+	.seccionradio{
+
+		
+	}
+
+}
+@media screen and (min-width: 1100){
+
+	
+}

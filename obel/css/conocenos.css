@@ -1,0 +1,33 @@
+.miembros{
+
+width: 90%;
+height: 20%;
+background: rgba(6, 22, 77, 0.7);
+box-shadow: 0px 0px 10px #81DAF5;
+border-width: 2px;
+border-style: solid;
+display: inline-block;
+border-radius: 10%;
+margin: 15px;
+
+
+}
+.retrato{
+
+width: 100px;
+height: 80px;
+border-radius: 40%;
+margin-left: 10px;
+float: left;
+margin: 5px;
+
+}
+#name{
+
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+.conocenos span p{
+
+	text-align: center;
+}
