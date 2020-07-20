@@ -1,0 +1,21 @@
+{
+    "name": "damiandev/proyecto-escolar",
+    "description": "Esto es un proyecto escolar",
+    "authors": [
+        {
+            "name": "DamianDev",
+            "email": "damian27goa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/http-foundation": "^5.2@dev",
+        "filp/whoops": "2.*",
+        "php-di/php-di": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

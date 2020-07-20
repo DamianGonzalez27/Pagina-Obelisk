@@ -1,0 +1,38 @@
+{
+  "name": "proyecto-escolar",
+  "version": "1.0.0",
+  "description": "Se trataba de un proyecto escolar, era basicamente maquetacion web en ese entonces no veriamos nada de controles de versiones ni de programacion en si, no recuerdo mucho sobre el impacto que tubieron estas plantillas en mi vida academica, pero lo que si recuerdo, fue todo lo que me esfoze por lograrlo, este proyecto se me metio en la cabeza tipo cancion pegajosa que nunca para de reproducirse en tu cabeza. La verdad no recuerdo bien de las clases por que la verdad creo que nunca fui un buen estudiante, y siento que pues basicamente mi educacion se esculpio a base de leer libros digitales que encontraba a en internet y ver tutoriales de YouTube.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianGonzalez27/Proyecto-escolar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamianGonzalez27/Proyecto-escolar/issues"
+  },
+  "homepage": "https://github.com/DamianGonzalez27/Proyecto-escolar#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
