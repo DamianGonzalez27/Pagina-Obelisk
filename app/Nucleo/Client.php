@@ -26,7 +26,7 @@ class Client extends FactoryEndpoints
     public function run()
     {
         $method = $this->getMethod();
-        //die($method);
+        
         if(array_key_exists($this->endpoint, $this->endpoints))
         {
             $element = $this->CursosActions($this->validator);

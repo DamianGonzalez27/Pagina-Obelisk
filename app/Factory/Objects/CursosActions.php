@@ -65,12 +65,11 @@ class CursosActions extends ActionsAbstract
     {
         return $this->run($this->cursos['Python']);
     }
-    public function Comprar_Curso(Validators $validator)
+    public function Comprar_Curso()
     {
         $response = [
             'Message' => 'Gracias por tu compra',
-            'Curso' => $this->params['id_curso'],
-            'Curso' => 'Gracias por tu compra',
+            'Curso' => 'Curso comprado',
         ];
         return $this->run($response);
     }
